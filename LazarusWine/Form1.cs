@@ -27,7 +27,7 @@ namespace LazarusWine
 
 				if (loginExitoso)
 				{
-					MessageBox.Show("Has iniciado sesión exitosamente");
+					MessageBox.Show("Has iniciado sesión exitosamente :)");
 				}
 				else
 				{
