@@ -14,7 +14,7 @@
 			throw new ArgumentException("Usuario o contraseña no pueden estar vacíos");
 		}
 
-		return usuarioRepository.ValidarCredenciales(username, password);
+		return usuarioRepository.IniciarSesion(username, password);
 	}
 
 	public bool RegistrarUsuario(string username, string password)

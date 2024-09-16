@@ -30,3 +30,4 @@ C:\Users\raul_\source\repos\LazarusWine\LazarusWine\bin\Debug\net8.0-windows\run
 C:\Users\raul_\source\repos\LazarusWine\LazarusWine\obj\Debug\net8.0-windows\LazarusWine.csproj.AssemblyReference.cache
 C:\Users\raul_\source\repos\LazarusWine\LazarusWine\obj\Debug\net8.0-windows\LazarusW.45B2E62C.Up2Date
 C:\Users\raul_\source\repos\LazarusWine\LazarusWine\bin\Debug\net8.0-windows\BCrypt.Net-Next.dll
+C:\Users\raul_\source\repos\LazarusWine\LazarusWine\obj\Debug\net8.0-windows\LazarusWine.sourcelink.json

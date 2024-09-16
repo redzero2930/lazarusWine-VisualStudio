@@ -10,7 +10,7 @@ public class UsuarioRepository
 		this.connectionString = connectionString;
 	}
 
-	public bool ValidarCredenciales(string username, string password)
+	public bool IniciarSesion(string username, string password)
 	{
 		const string query = "SELECT password FROM users WHERE username = @username";
 
