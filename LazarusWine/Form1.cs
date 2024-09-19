@@ -7,7 +7,7 @@ namespace LazarusWine
 {
 	public partial class Login : Form
 	{
-		private const string connectionString = "Server=localhost;Database=login_demo;Uid=root;Pwd=greenday99;";
+		private const string connectionString = "Server=localhost;Database=login_demo;Uid=root;Pwd=greenday99";
 
 		public Login()
 		{
@@ -37,32 +37,6 @@ namespace LazarusWine
 			catch (Exception ex)
 			{
 				MessageBox.Show("Error al iniciar sesión: " + ex.Message);
-			}
-		}
-
-		private void buttonSignup_Click(object sender, EventArgs e)
-		{
-			try
-			{
-				InicioDeSesion inicioDeSesion = new InicioDeSesion(connectionString);
-
-				string username = textBoxUsuario.Text;
-				string password = textBoxContraseña.Text;
-
-				bool registroExitoso = inicioDeSesion.RegistrarUsuario(username, password);
-
-				if (registroExitoso)
-				{
-					MessageBox.Show("Usuario registrado exitosamente");
-				}
-				else
-				{
-					MessageBox.Show("El nombre de usuario ya está en uso");
-				}
-			}
-			catch (Exception ex)
-			{
-				MessageBox.Show("Error al registrar usuario: " + ex.Message);
 			}
 		}
 	}

@@ -34,7 +34,6 @@
 			textBoxUsuario = new TextBox();
 			textBoxContraseña = new TextBox();
 			buttonIniciarSesion = new Button();
-			buttonSignup = new Button();
 			SuspendLayout();
 			// 
 			// labelTitle
@@ -88,22 +87,12 @@
 			buttonIniciarSesion.UseVisualStyleBackColor = true;
 			buttonIniciarSesion.Click += buttonIniciarSesion_Click;
 			// 
-			// buttonSignup
-			// 
-			buttonSignup.Location = new Point(246, 182);
-			buttonSignup.Name = "buttonSignup";
-			buttonSignup.Size = new Size(75, 43);
-			buttonSignup.TabIndex = 6;
-			buttonSignup.Text = "Registrarse";
-			buttonSignup.UseVisualStyleBackColor = true;
-			buttonSignup.Click += buttonSignup_Click;
 			// 
 			// Login
 			// 
 			AutoScaleDimensions = new SizeF(7F, 15F);
 			AutoScaleMode = AutoScaleMode.Font;
 			ClientSize = new Size(409, 237);
-			Controls.Add(buttonSignup);
 			Controls.Add(buttonIniciarSesion);
 			Controls.Add(textBoxContraseña);
 			Controls.Add(textBoxUsuario);
@@ -124,6 +113,6 @@
 		private TextBox textBoxUsuario;
 		private TextBox textBoxContraseña;
 		private Button buttonIniciarSesion;
-		private Button buttonSignup;
+		
 	}
 }
